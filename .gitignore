@@ -1,0 +1,12 @@
+node_modules/
+dist/
+__pycache__/
+.venv/
+.env
+storage/*
+!storage/.gitkeep
+ml/datasets/*
+ml/**/*.pt
+
+backend/models/
+ml/evaluation/reports/

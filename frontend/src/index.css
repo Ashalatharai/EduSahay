@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-white text-ink font-sans antialiased; }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-accent; }
+}
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-2.5 text-sm font-semibold transition-colors; }
+  .btn-primary { @apply btn bg-navy text-white hover:bg-[#10304f]; }
+  .btn-ghost { @apply btn border border-navy/20 text-navy hover:bg-mist; }
+  .card { @apply rounded-2xl bg-white shadow-card border border-navy/5; }
+}

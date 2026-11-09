@@ -1,0 +1,11 @@
+- [x] 1 Architecture, folders, landing page
+- [x] 2 Registration, auth, PostgreSQL
+- [x] 3 Document upload
+- [x] 4 CNN classifier
+- [x] 5 PaddleOCR
+- [x] 6 LayoutLMv3
+- [x] 7 Cross-document validation
+- [x] 8 Admission form
+- [x] 9 Duplicate detection
+- [x] 10 Admin dashboard
+- [x] 11 PDF, testing, evaluation
